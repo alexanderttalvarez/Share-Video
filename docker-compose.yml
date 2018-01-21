@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+
+  apache:
+    build:
+      context: ./
+      dockerfile: apache.docker
+    volumes:
+      - ./php:/var/www/html
+      - ./bash:/var/www/html
+    ports:
+      - "8081:80"

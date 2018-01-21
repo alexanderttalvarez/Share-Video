@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "VideoImporter\\":"app/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
